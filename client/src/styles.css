@@ -701,7 +701,7 @@ h2 {
 }
 .calendar-layout {
   display: grid;
-  grid-template-columns: minmax(0,1.6fr) minmax(250px,.8fr);
+  grid-template-columns: minmax(0,1fr);
   gap: 16px;
 }
 .calendar-panel,.day-panel,.settings-card {
@@ -1608,7 +1608,7 @@ html[data-theme=dark] .today-chip,html[data-theme=dark] .theme-options {
     grid-template-columns: repeat(2,1fr);
   }
   .calendar-layout {
-    grid-template-columns: minmax(0,1.3fr) minmax(220px,.8fr);
+    grid-template-columns: minmax(0,1fr);
   }
   .hero-card {
     height: 245px;

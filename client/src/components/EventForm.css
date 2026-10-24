@@ -1,0 +1,97 @@
+﻿.event-modal-head .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #8669d4;
+}
+.form-progress {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 14px;
+}
+.form-progress span {
+  height: 4px;
+  width: 23px;
+  border-radius: 4px;
+  background: linear-gradient(90deg,#8062d1,#d9cdf9);
+}
+.form-progress b {
+  margin-left: 5px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #aaa5b6;
+}
+.celebration-fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.celebration-fieldset legend {
+  margin-bottom: 10px;
+}
+.type-chip {
+  transition: transform .18s,box-shadow .18s,border-color .18s;
+}
+.type-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px #6143a51b;
+}
+.type-chip.selected {
+  border-color: #9a81e3!important;
+  background: #f4f0ff!important;
+  color: #6249b5!important;
+  box-shadow: 0 0 0 2px #e8e0ff;
+}
+.type-chip>span {
+  display: inline-grid;
+  place-items: center;
+  margin-right: 5px;
+}
+.type-chip i {
+  font-style: normal;
+  margin-left: auto;
+  color: #7158c9;
+  font-size: 12px;
+}
+.custom-type-reveal {
+  display: grid;
+  gap: 8px;
+  margin-top: 13px;
+  padding: 14px;
+  border: 1px solid #e2d9fb;
+  border-radius: 13px;
+  background: linear-gradient(135deg,#f8f5ff,#fffaf6);
+  animation: custom-reveal .24s ease both;
+}
+.custom-type-reveal>span,.date-field-label>span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.custom-type-reveal>span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #654cb7;
+}
+.custom-type-reveal small {
+  font-size: 10px;
+  color: #9992a5;
+  line-height: 1.45;
+}
+.date-field-label>span {
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #514b60;
+}
+@keyframes custom-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

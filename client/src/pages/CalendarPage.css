@@ -1,0 +1,29 @@
+.calendar-day .event-marker,.calendar-legend .event-marker {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: none;
+  color: #dd9d79;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1;
+  bottom: 5px;
+}
+.calendar-legend .event-marker {
+  position: static;
+  font-size: 11px;
+}
+.calendar-day.has-event:not(.selected) {
+  background: #f2edff;
+  color: #684fc1;
+}
+.calendar-day.has-event:not(.selected):hover {
+  background: #e9e0ff;
+}
+.calendar-day.has-event.selected {
+  background: #7259c7;
+  color: #fff;
+}
+.calendar-day.selected .event-marker {
+  color: #fff;
+}

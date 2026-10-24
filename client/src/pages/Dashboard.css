@@ -1,0 +1,77 @@
+@media (max-width: 700px) {
+  .hero-card .hero-copy {
+    width: 78%;
+  }
+
+  .hero-card .hero-illustration {
+    right: 0;
+    width: 48%;
+    opacity: 0.58;
+  }
+
+  .hero-card .orb-a {
+    width: 150px;
+    height: 150px;
+    top: 66px;
+    right: -8px;
+  }
+
+  .hero-card .orb-b {
+    width: 108px;
+    height: 108px;
+    top: 102px;
+    right: 16px;
+  }
+
+  .hero-card .sun-face {
+    top: 72px;
+    right: 78px;
+    font-size: 32px;
+  }
+
+  .hero-card .hero-ticket {
+    top: 119px;
+    right: 2px;
+    width: 108px;
+    height: 73px;
+    padding: 9px 10px;
+  }
+
+  .hero-card .hero-ticket b {
+    font-size: 15px;
+  }
+
+  .hero-card .hero-ticket span,
+  .hero-card .hero-ticket small {
+    font-size: 6px;
+  }
+
+  .hero-card .flower-a {
+    top: 77px;
+    right: 7px;
+    font-size: 23px;
+  }
+
+  .hero-card .flower-b {
+    bottom: 18px;
+    left: 4px;
+    font-size: 18px;
+  }
+
+  .hero-card .flower-c {
+    right: 14px;
+    bottom: 11px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-card .hero-copy {
+    width: 82%;
+  }
+
+  .hero-card .hero-illustration {
+    right: 0;
+    width: 47%;
+  }
+}

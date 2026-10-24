@@ -1,0 +1,3 @@
+import React from 'react';
+import { Gift } from 'lucide-react';
+export function SplashScreen(){return <div className="splash-screen"><div className="splash-glow splash-glow-one"/><div className="splash-glow splash-glow-two"/><div className="splash-content"><div className="splash-mark"><Gift size={38}/></div><div className="splash-sparkle sparkle-one">&#10024;</div><div className="splash-sparkle sparkle-two">&#127881;</div><div className="splash-sparkle sparkle-three">&#127874;</div><p>KEEP THE DATES THAT MATTER</p><h1>Momentra</h1><span className="splash-rule"/><small>Make every moment count.</small></div></div>}
